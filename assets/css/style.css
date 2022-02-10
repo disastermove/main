@@ -123,6 +123,11 @@ img {
     left: 7px;
   }
 
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
   p {
     font-size: 12.5px;
   }
@@ -130,6 +135,8 @@ img {
   img {
     width: 155px;
     height: 153px;
+    position: relative;
+    left: 100px;
   }
 
   h2 {
@@ -138,7 +145,7 @@ img {
 
   .box {
     display: inline-block;
-    width: 360px;
+    width: 350px;
     height: 313px;
     position: relative;
     margin-right: 300px;
@@ -170,18 +177,20 @@ img {
   img {
     width: 155px;
     height: 153px;
+    position: relative;
+    left: 70px;
   }
 
   h2 {
     font-size: 20px;
+    top: 10px;
   }
 
   .box {
     display: inline-block;
-    width: 308px;
+    width: 290px;
     height: 313px;
     position: relative;
-    margin-right: 170px;
-    left: 5px;
+    left: 10px;
   }
 }
