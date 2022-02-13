@@ -38,7 +38,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   transition: 0.5s;
   background-color: #000000a6 !important;
