@@ -4,19 +4,6 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 
-.uno {
-  line-height: 3.95rem;
-  font-size: 3rem;
-  color: #039;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-}
-
-.wey {
-  border-left: 30px solid red;
-  padding-left: 2rem;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -46,11 +33,6 @@ li a:hover {
   transform: scale(0.9);
 }
 
-.container {
-  width: 1200px;
-  margin: auto;
-}
-
 footer {
   color: white;
   background: rgba(0, 32, 86, 0.8) !important;
@@ -62,7 +44,48 @@ footer {
   left: 0;
 }
 
+.volvi {
+  position: relative;
+  left: 840px;
+}
+
+.uno {
+  line-height: 3.95rem;
+  font-size: 3rem;
+  color: #039;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+
+.wey {
+  border-left: 30px solid red;
+  padding-left: 2rem;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: auto;
+    width: auto;
+  }
+  .volvi {
+    position: absolute;
+    left: 330px;
+  }
+}
+
 .containers {
   position: relative;
   top: 30px;
 }
+/*
+.noti {
+  padding-left: 9px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-left: 1px solid #d1d1d1;
+}*/
