@@ -4,7 +4,7 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 
-ul {
+.ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,21 +13,52 @@ ul {
   border-radius: 0.4vh;
 }
 
+h3 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border-top-left-radius: 7px;
+  color: #ffffff;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: left;
+  font-size: 0.7em;
+  line-height: 1.8vh;
+  border-radius: 5px;
+  bottom: 206px;
+  left: 8px;
+}
+
 h2 {
   color: rgb(0, 0, 0);
   font-size: 1.4rem;
+  position: relative;
+  top: 10px;
 }
 
-p {
+.li {
+  float: left;
+}
+
+P {
   color: rgb(0, 0, 0);
   font-size: 0.9rem;
 }
 
-li {
-  float: left;
+P:hover {
+  text-decoration-line: underline;
 }
 
-li a {
+.a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+}
+
+.a:hover {
+  text-decoration-line: underline;
+}
+
+.li .a {
   display: block;
   color: white;
   text-align: center;
@@ -35,7 +66,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.li .a:hover {
   transition: 0.5s;
   background-color: #ffffffd7 !important;
   box-shadow: 0 0 5px white;
@@ -47,7 +78,7 @@ li a:hover {
 
 .volvi {
   position: relative;
-  left: 844px;
+  left: 855px;
 }
 
 .uno {
@@ -64,7 +95,7 @@ li a:hover {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -98,23 +129,24 @@ li a:hover {
 
 .noti {
   position: relative;
-  width: 175px;
-  height: 183px;
+  width: 285px;
+  height: 243px;
   float: left;
   margin-top: 20px;
-  padding-left: 10px;
-  margin-left: 10px;
-  margin-bottom: 2px;
+  margin-left: 70px;
+  border-bottom: none;
+  padding-left: 9px;
+  padding-bottom: 0;
+  margin-bottom: 7px;
   border-left: 1px solid #d1d1d1;
-  transition: opacity 0.2s;
-  opacity: 1;
-  transition: ease-in-out 0.3s;
   overflow: hidden;
 }
 
 .noti:hover {
   transform: scale(1.03);
-  text-decoration-line: underline;
+  border-left-color: #333;
   /*transition:ease-in-out 0.3s;*/
   cursor: pointer;
 }
+
+/*footer*/
